@@ -4,13 +4,13 @@ namespace WildPE;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\level\{Level,Position};
+use pocketmine\level\{Level, Position};
 use pocketmine\math\Vector3;
-use pocketmine\{Server,Player};
+use pocketmine\{Server, Player};
 use pocketmine\utils\TextFormat;
 use pocketmine\event\entity\EntityDamageEvent;
 
-       class wild extends PluginBase implements  Listener {
+       class wild extends PluginBase{
           public function onEnable(){
               $this->getLogger()->info(C::AQUA . "Enabled Plugin WildPE by SinlesFlyer");
     }

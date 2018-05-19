@@ -17,7 +17,7 @@ use pocketmine\event\entity\EntityDamageEvent;
               $this->getLogger()->info(TF::AQUA . "Enabled Plugin WildPE by SinlesFlyer");
     }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
-		if (strtolower($cmd->getName()) === "wild") {
+		if (strtolower($cmd->getName()) === "wild"){
 				if($sender->hasPermission("wild.command")) {
 					if($sender instanceof Player) {
 						$x = rand(1,350000);
@@ -35,7 +35,7 @@ use pocketmine\event\entity\EntityDamageEvent;
 					$sender->sendMessage(TF::AQUA . "§2You do not have permission to use this command!");
 				}
 				return true;
-			break;
-		}
+                    }
+                return true;
 	  }
-	}
+       }

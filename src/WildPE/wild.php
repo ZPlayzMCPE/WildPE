@@ -8,10 +8,8 @@ use pocketmine\level\{Level, Position};
 use pocketmine\math\Vector3;
 use pocketmine\{Server, Player};
 use pocketmine\utils\TextFormat as TF;
-use pocketmine\event\Listener;
-use pocketmine\event\entity\EntityDamageEvent;
 
-       class wild extends PluginBase implements Listener{
+       class wild extends PluginBase{
 	       
           public function onEnable(){
               $this->getLogger()->info(TF::AQUA . "Enabled Plugin WildPE by SinlesFlyer");

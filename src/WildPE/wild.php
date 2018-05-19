@@ -14,7 +14,7 @@ use pocketmine\event\entity\EntityDamageEvent;
        class wild extends PluginBase implements Listener{
 	       
           public function onEnable(){
-              $this->getLogger()->info(C::AQUA . "Enabled Plugin WildPE by SinlesFlyer");
+              $this->getLogger()->info(TF::AQUA . "Enabled Plugin WildPE by SinlesFlyer");
     }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
 		switch(strtolower($cmd->getName())){

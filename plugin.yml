@@ -1,11 +1,11 @@
 name: WildPE
 main: WildPE\wild
-api: [2.1.0, 3.0.0]
-author: SinlesFlyer376
+api: [3.0.0-ALPHA12]
+author: VMPE Development Team
 description: WildPE
 commands:
      wild:
-       default: op
+     description: Teleport to a random spot.
 permissions:
-     factioncore.command.wild:
-         default: op
+     wild.command:
+         default: true

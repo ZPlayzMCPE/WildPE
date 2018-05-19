@@ -1,6 +1,6 @@
 name: WildPE
 main: WildPE\wild
-version: 1.0.0-BETA
+version: 1.0.0-BETA1
 api: [3.0.0-ALPHA12]
 author: VMPE Development Team
 description: WildPE plugin.

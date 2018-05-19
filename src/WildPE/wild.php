@@ -17,8 +17,7 @@ use pocketmine\event\entity\EntityDamageEvent;
               $this->getLogger()->info(TF::AQUA . "Enabled Plugin WildPE by SinlesFlyer");
     }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
-		switch(strtolower($cmd->getName())){
-			case "wild":
+		if (strtolower($cmd->getName()) === "wild") {
 				if($sender->hasPermission("wild.command")) {
 					if($sender instanceof Player) {
 						$x = rand(1,350000);

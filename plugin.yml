@@ -1,8 +1,9 @@
 name: WildPE
 main: WildPE\wild
+version: 1.0.0-BETA
 api: [3.0.0-ALPHA12]
 author: VMPE Development Team
-description: WildPE
+description: WildPE plugin.
 commands:
      wild:
      description: Teleport to a random spot.

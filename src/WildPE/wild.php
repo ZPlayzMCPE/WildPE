@@ -7,7 +7,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\level\{Level, Position};
 use pocketmine\math\Vector3;
 use pocketmine\{Server, Player};
-use pocketmine\utils\TextFormat;
+use pocketmine\utils\TextFormat as TF;
 use pocketmine\event\Listener;
 use pocketmine\event\entity\EntityDamageEvent;
 
